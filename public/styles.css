@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Cinzel&display=swap");
+body {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-family: "Cinzel", serif;
+  max-width: 1200px;
+}
+
+p,
+h1,
+h2,
+h3,
+a,
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #222;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+}
+
+nav ul {
+  padding-top: 80px;
+  padding-right: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: center;
+}
+
+nav li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+nav li a:hover {
+  color: black;
+}
+
+nav h1 {
+  font-family: "Chewy", serif;
+  font-size: 50px;
+}
+
+nav p,
+nav a {
+  color: #777;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  margin: 80px auto 20px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+h3 {
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.content {
+  margin-left: 20px;
+}
+
+/* index */
+.blogs a {
+  display: block;
+  margin: 40px 0;
+  padding-left: 30px;
+  border-bottom: 4px solid #8b008b;
+}
+
+.blogs a:hover h3 {
+  color: #fa8072;
+}
+
+/* details */
+.details {
+  position: relative;
+}
+
+.delete {
+  position: absolute;
+  padding-top: 15px;
+  color: #dc143c;
+}
+
+.delete:hover {
+  border-bottom: 2px solid #7fdbff;
+  cursor: pointer;
+}
+
+/* create */
+.create-blog form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.create-blog input,
+.create-blog textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+.create-blog label {
+  display: block;
+  margin-top: 24px;
+}
+
+textarea {
+  height: 120px;
+}
+
+.create-blog button {
+  margin-top: 20px;
+  background: #a52a2a;
+  color: white;
+  padding: 6px;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+}
